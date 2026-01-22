@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Riya Kinkar Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Riya Kinkar</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Riya Kinkar | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* RESET */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #ffffff;
+    }
+
+    /* NAVBAR */
+    nav {
+      padding: 20px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      color: #daff07;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      color: #e5e90ff6;
+    }
+
+    /* HOME SECTION */
+    .hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 0 10%;
+    }
+
+    .hero-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text span {
+      color: #fffb07;
+      font-size: 20px;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      margin: 10px 0;
+    }
+
+    .hero-text h3 {
+      font-size: 24px;
+      margin-top: 15px;
+    }
+
+    .cursor {
+      color: #000000;
+      animation: blink 0.7s infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+
+    /* IMAGE RIGHT SIDE */
+    .hero-img img {
+      width: 260px;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #ffee07;
+    }
+
+    /* ABOUT SECTION */
+    .about {
+      padding: 80px 10%;
+      background-color: #111;
+    }
+
+    .about h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      margin-bottom: 10px;
+      color: #ccc;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .hero-text {
+        max-width: 100%;
+        text-align: center;
+      }
+
+      .hero-container {
+        justify-content: center;
+        gap: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section id="home" class="hero">
+    <div class="hero-container">
+
+      <div class="hero-text">
+        <span style="color:#ffc107; letter-spacing: 2px; font-size: 70px;">HELLO!</span>
+        <h1>I'm <span style="color:#ffee07; letter-spacing: 2px; font-size: 30px;">Riya Kinkar</span></h1>
+        <h3>
+          <span id="typing"></span>
+          <span class="cursor">|</span>
+        </h3>
+      </div>
+
+      <!-- IMAGE RIGHT SIDE -->
+      <div class="hero-img">
+	  <div class="one-third d-flex align-items-center ftco-animate" 
+	   data-srollax="properties: { translateY: '80%'}"
+	  style="background-image: url('images/About.png');
+	  background-repeat: no repeat;
+	  background-size: cover;
+	  background-position: center;
+	  width: 500px;
+	  height: 500px;
+	  border-radius: 50%;
+	  margin-left: auto; "></div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    const texts = ["Student",
+	 "Developer",
+	 "Future Educator"];
+    let index = 0;
+    let charIndex = 0;
+    const typingElement = document.getElementById("typing");
+
+    function type() {
+      if (charIndex < texts[index].length) {
+        typingElement.textContent += texts[index].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, 100);
+      } else {
+        setTimeout(erase, 1500);
+      }
+    }
+
+    function erase() {
+      if (charIndex > 0) {
+        typingElement.textContent =
+          texts[index].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(erase, 50);
+      } else {
+        index = (index + 1) % texts.length;
+        setTimeout(type, 500);
+      }
+    }
+     document.addEventListener("DOMContentLoaded", type);
+  </script>
+</body>
+</html>
+ </script>
+			<h2>Web Development Beginner</h2>
+						<a href="https://github.com/riyakikar" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+		            </div>
+		          </div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/bg_2.jpg" class="img-fluid rounded b-shadow-a" alt="images/bg_2.jpg">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Riya Kinkar</span></p>
+										<p><span class="title-s">Job Role: </span> <span>Computer Application Learner</span></p>
+										<p><span class="title-s">Experience: </span> <span>Fresher</span></p>
+										<p><span class="title-s">Address: </span> <span>Pandhurna, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>HTML</span> <span class="pull-right">70%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>MS Access</span> <span class="pull-right">65%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Python (Basic)</span> <span class="pull-right">70%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>MS Word</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Ms Excel</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>I am a motivated BA student with a strong interest in learning computer applications, programming basics, and effective communication skills.
+									 I am currently building my foundation in HTML, CSS, Python, and basic computer concepts. I Aim to continuously improve my skills and grow academicall and professionally.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Python</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>Arts &amp; Computer Basics</span></li>
+									<li class="d-flex"><span>Education:</span> <span>BA (pursuing)</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
+									<li class="d-flex"><span>Computer Skills:</span><span>HTML, CSS, MS Excel, Python (Basic), MS Word  &amp; MS Access</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Traveling, Reading, Learning, Teaching</span></li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="3">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/riyakinkar/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <h1 class="mb-4 "><span style="color:#ffc107; letter-spacing: 2px; font-size: 50px;">Resume<span></span></h2>
+            <p>I am BA student currently focusing on building strong academic knowledge along with basic computer and programming skills. I am learning HTML, CSS, Python, and Computer
+				applications and working on small academic and practice-based projects to improve my technical and communication abilities.</p>
+		</div>
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2025-Present</span>
+						<h2>Student / Fresher</h2>
+						<span class="position">Academic Learning</span>
+						<p class="mt-4">Currently gaining academic knowledge and practical exposure through coursework and self-learning. Working on basic programming exercises,
+							 assignments, and computer application tasks.
+							</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2026 - 2028</span>
+						<h2>Bachelor of Arts (BA)</h2>
+						<span class="position">Pursuing</span>
+						<p class="mt-4">Studying core subjects along with basic computer applications, communication skills, and foundational programming concepts.
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2025</span>
+    					<h2>12th (PCM)</h2>
+    					<span class="position">CM rise school, Pandhurna</span>
+    					<p class="mt-4">Grade: First class distinction.</p>
+    				</div>
+    			</div>
+                 <br>
+			   <br>
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+          <br>
+		<br>
+                
+	<section class="ftco-section Project-section ftco-no-pb"
+	 id="Project-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="row heading-section text-center ftco-animate">
+			  <div class="col-md-10 heading-section text-center ftco-animate">
+				  <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4"><span style="color:#f1c937; letter-spacing: 2px; font-size: 50px;">Projects<span></span></h2>
+				<br>
+    <P> <span style="color:#ffc107; letter-spacing: 2px; font-size: 30px;">Below are my academic and practice-based projects created during learning.</span></P>
+     <div class="row d-flex ftco-animate">
+		<div class="blog-entry justify-content-end">
+			<br>
+			<img src="images/photo.1.png" 
+			class="img-fluid project_img" alt="Python project">
+      <div class="text mt-3 float-right d-block">
+		<h3 class="heading"><span style="color:#ffc107; letter-spacing: 2px; font-size: 30px;">Personal portfolio Website</span></h3>
+		  <p>Designed and developed a personal portfolio website using HTML and CSS to showcase my profile, skills, and education.</p>
+	      </div> 	
+	    </div>
+	 </div>
+          <br>
+		<br>
+
+		 <div class="row d-flex ftco-animate">
+		<div class="blog-entry justify-content-end">
+			<img src="images/photo.2.png" 
+			class="img-fluid project_img" alt="Python project">
+			<div class="text mt-3 float-right d-block">
+				<h3 class="heading"><span style="color:#ffc107; letter-spacing: 2px; font-size: 30px;">Basic Python Programs</span></h3>
+				<p>created simple Python Programs for Calculations, loops, conditions, and basic logic building.</p>
+			</div>
+		</div>
+	 </div>
+          <br>
+		<br>
+
+	<div class="row d-flex ftco-animate">
+		<div class="blog-entry justify-content-end">
+			<img src="images/photo.3.jpg" 
+			class="img-fluid project_img" alt="Python project">
+			<div class="text mt-3 float-right d-block">
+				<h3 class="heading"><span style="color:#ffc107; letter-spacing: 2px; font-size: 30px;">Computer Fundamentals Practice</span></h3>
+				<p>Worked on MS Word, Excel basics, file management, and internet usage as part of computer Learning.</p>
+			</div>
+		</div>
+	</div>
+
+	
+
+	   <section class="fcto-section ftco-no-pt ftco-no-pb ftco-counter img"
+	 id="section-counter">
+	 <div class="container">
+		<div class="row d-md-flex align-items-center">
+
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+				<div class="block-18 text-center">
+					<div class="text">
+				<strong class="number" data-number="5">0</strong>
+				<span>Courses Completed</span>
+				</div>
+			  </div>
+			</div>
+
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+				<div class="block-18 text-center">
+					<div class="text">
+					<strong class="number" data-number="4">0</strong>
+					<span>Mini Projects</span>
+				</div>
+			  </div>
+			</div>
+
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+				<div class="block-18 text-center">
+					<div class="text">
+				<strong class="number" data-number="3">0</strong>
+				<span>Skills Learned</span>
+			</div>
+		  </div>
+	   </div>
+
+		<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			<div class="block-18 text-center">
+				<div class="text">
+				<strong class="number" data-number="200">0</strong>
+				<span>Learning Hours</span>
+			</div>
+		  </div>
+	    </div>
+	 </div>
+<br><br>
+
+</section>
+
+	
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" 
+	id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="5">0</strong>
+                <span>Courses Completed</span>
+              </div>
+            </div>
+          </div>
+		
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="3">0</strong>
+                <span>Mini Projects</span>
+              </div>
+            </div>
+          </div>
+
+		  
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="3">0</strong>
+                <span>Skills Learned student</span>
+              </div>
+            </div>
+          </div>
+		
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="200">0</strong>
+                <span>Learning Hours</span>
+              </div>
+            </div>
+          </div>
+
+     <div class="ftco-section ftco-hireme img margin-top" style="background-image: url('images/bg_1.jpg');
+	  border-radius: 0;
+	  width: 1000%;
+      height: 1000%;"></div>
+    
+			<div class="container">
+        <div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> I am learning programming and building small projects to improve my skills </h4>
+						<br>
+						<p><a href="https://github.com/riyakinkar" class="btn btn-primary py-3 px-5">GitHub (coming soon)</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+   <br>
+   <br>
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Pandhurna, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+ 0 101 0101 101</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">conctact@domainname.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="#">resumelink</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+				</div>
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/riyakikar/"><span class="icon-linkedin"></span></a></li> 
+				      <li class="ftco-animate"><a href="https://www.instagram.com/riyakinkar/"><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
